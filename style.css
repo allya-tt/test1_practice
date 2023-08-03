@@ -1,0 +1,50 @@
+.thename {
+padding-left:50px;
+}
+
+.card {
+width: 18em;
+text-align: center;
+border: solid 1px gray;
+padding: 15px;
+margin: 5px 20px 20px 10px;
+}
+
+.card p {
+text-align: justify;
+}
+
+.card .price {
+text-align:center;
+font-size: 20px;
+}
+
+.cards {
+
+display: flex;
+gap: 80px;
+width: 100%;
+justify-content: center;
+flex-flow: wrap;
+}
+
+.table {
+width: 75%;
+margin: auto;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+text-align: center;
+border-collapse: separate;
+border-spacing: 5px;
+background: #ECE9E0;
+color: #656665;
+border: 16px solid #ECE9E0;
+border-radius: 20px;
+}
+th {
+font-size: 18px;
+padding: 10px;
+}
+td {
+background: #F5D7BF;
+padding: 10px;
+}
