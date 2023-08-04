@@ -1,17 +1,39 @@
+body {
+background-color: #fcf6f5;
+}
 .thename {
-padding-left:50px;
+font-family:  "Playfair Display", sans-serif;
+text-align: center;
+}
+
+.descr {
+text-align = center;
+}
+
+.description{
+width: 75%;
+text-align: justify;
+font-size: 18px;
+text-indent: 30px;
+
+}
+
+.about-us {
+font-family="TrumpGothicPro";
 }
 
 .card {
+border-radius: 20px;
 width: 18em;
 text-align: center;
-border: solid 1px gray;
-padding: 15px;
+padding: 10px;
 margin: 5px 20px 20px 10px;
+background-color: white;
 }
 
 .card p {
 text-align: justify;
+margin-top:20px;
 }
 
 .card .price {
@@ -22,7 +44,7 @@ font-size: 20px;
 .cards {
 
 display: flex;
-gap: 80px;
+gap: 30px;
 width: 100%;
 justify-content: center;
 flex-flow: wrap;
@@ -47,4 +69,14 @@ padding: 10px;
 td {
 background: #F5D7BF;
 padding: 10px;
+}
+
+.cardtitle {
+margin-top:10px;
+font-size: 20px;
+font-weight:500;
+}
+
+.image-card {
+border-radius: 10px;
 }
