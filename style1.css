@@ -1,0 +1,49 @@
+
+body {
+background-color: #fcf6f5;
+}
+
+form {
+border-radius: 20px;
+width: 50em;
+text-align: center;
+padding: 40px;
+background-color: white;
+justify-content: center;
+display: flex;
+align-items: center;
+position:absolute;
+height:600px;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+.comments {
+color: #bfbacc
+}
+
+.btn {
+text-decoration: underline;
+color: #000;
+}
+
+.submit {
+margin-top: 20px;
+text-align: center;
+border: 1px;
+margin-bottom: 20px;
+background-color: #f07854;
+text-decoration: none;
+color: #fff;
+padding: 12px 16px;
+border-radius: 5px;
+font-size:15px;
+}
+
+.home{
+text-decoration: underline;
+color: #000;
+}
