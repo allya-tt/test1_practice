@@ -5,6 +5,54 @@
     <title>Title</title>
 </head>
 <body>
+<form action=# method="post">
+    <div class="contact-form">
+        <h1>Записаться онлайн</h1>
+        <p>Заполните форму - и мы с вами свяжемся</p>
+        <hr>
 
+        <label for="clientName">Ваше имя:</label>
+        <input type="text" id="clientName" name="clientName" required>
+        <br>
+        <br>
+        <label for="phoneNumber">Номер телефона:</label>
+        <input type="tel" placeholder="+1 (XX) XXX-XX-XX" name="phoneNumber" id="phoneNumber" required>
+        <br>
+        <p>Название процедуры:</p>
+        <input type="radio" value=“1” id = 'first' name=“myRadio”><label for= "first">Оформление бровей краска</label>
+        <input type="radio" value=“2” id = 'second' name=“myRadio”><label for= "second">Оформление бровей хна</label>
+        <input type="radio" value=“3” id = 'third' name=“myRadio”><label for= "third">Ламинирование бровей</label>
+        <input type="radio" value=“4” id = 'fourth' name=“myRadio”><label for= "fourth">Коррекция бровей</label>
+        <br> <br>
+        <label for="masterList">Мастер:</label>
+        <select id="masterList">
+            <option>Елена</option>
+            <option>Александра</option>
+            <option>Анна</option>
+            <option>Виктория</option>
+            <option>Не знаю</option>
+        </select>
+        <p>*график работы мастеров можно посмотреть <a class = "btn" href = '#'>здесь</a></p>
+        <br><br>
+        <label for="weekdays">День недели:</label>
+        <select id="weekdays" multiple>
+            <option>Понедельник</option>
+            <option>Вторник</option>
+            <option>Среда</option>
+            <option>Четверг</option>
+            <option>Пятница</option>
+            <option>Суббота</option>
+            <option>Воскресенье</option>
+        </select>
+        <br><br>
+        <label for="time">Время:</label>
+        <input type="text" placeholder="18:00" name="time" id="time">
+        <br><br>
+        <label for="story">Комментарий:</label>
+        <textarea id="story" name="story"></textarea>
+        <br><br>
+        <button type="submit" class="submit">Записаться</button>
+    </div>
+</form>
 </body>
 </html>
